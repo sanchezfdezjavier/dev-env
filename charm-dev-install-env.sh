@@ -8,7 +8,7 @@ sudo usermod -aG microk8s $(whoami) &&
 sudo microk8s status --wait-ready && 
 sudo microk8s enable storage dns ingress &&
 sudo snap alias microk8s.kubectl kubectl &&
-newgrp microk8s &&
+sg microk8s microk8s start &&
 
 # Install Charmcraft
 sudo snap install lxd --classic &&
