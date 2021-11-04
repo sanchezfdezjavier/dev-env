@@ -1,4 +1,4 @@
-# Based on bira theme
+# Based on robbyrussell and gnzh themes 
 
 setopt prompt_subst
 
