@@ -28,11 +28,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.35915297269821167
   },
-  "Ansi 3 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Blue Component" : 0,
-    "Red Component" : 0.73333334922790527
-  },
+  "Custom Directory" : "No",
   "Ansi 5 Color" : {
     "Green Component" : 0,
     "Blue Component" : 0.73333334922790527,
@@ -103,7 +99,7 @@
   "Non Ascii Font" : "Monaco 12",
   "Vertical Spacing" : 1,
   "Use Bold Font" : true,
-  "Option Key Sends" : 0,
+  "Option Key Sends" : 2,
   "Selected Text Color" : {
     "Green Component" : 0,
     "Blue Component" : 0,
@@ -147,6 +143,12 @@
       "Text" : "[1;2H",
       "Action" : 10
     },
+    "0xf702-0x300000-0x7b" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x01",
+      "Label" : ""
+    },
     "0xf72b-0x40000" : {
       "Text" : "[1;5F",
       "Action" : 10
@@ -175,6 +177,18 @@
       "Text" : "0x1b",
       "Action" : 11
     },
+    "0x7f-0x100000-0x33" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x15",
+      "Label" : ""
+    },
+    "0xf703-0x300000-0x7c" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x05",
+      "Label" : ""
+    },
     "0xf703-0x220000" : {
       "Text" : "[1;2C",
       "Action" : 10
@@ -186,6 +200,12 @@
     "0xf70d-0x20000" : {
       "Text" : "[21;2~",
       "Action" : 10
+    },
+    "0xf702-0x280000-0x7b" : {
+      "Version" : 1,
+      "Action" : 10,
+      "Text" : "b",
+      "Label" : ""
     },
     "0xf702-0x260000" : {
       "Text" : "[1;6D",
@@ -219,9 +239,11 @@
       "Text" : "[1;2D",
       "Action" : 10
     },
-    "0xf703-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x43",
-      "Action" : 11
+    "0xf703-0x280000-0x7c" : {
+      "Version" : 1,
+      "Action" : 10,
+      "Text" : "f",
+      "Label" : ""
     },
     "0xf700-0x240000" : {
       "Text" : "[1;5A",
@@ -250,10 +272,6 @@
     "0xf701-0x260000" : {
       "Text" : "[1;6B",
       "Action" : 10
-    },
-    "0xf702-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x44",
-      "Action" : 11
     },
     "0xf72b-0x20000" : {
       "Text" : "[1;2F",
@@ -413,7 +431,11 @@
     "Blue Component" : 0,
     "Red Component" : 0
   },
-  "Custom Directory" : "No",
+  "Ansi 3 Color" : {
+    "Green Component" : 0.73333334922790527,
+    "Blue Component" : 0,
+    "Red Component" : 0.73333334922790527
+  },
   "Use Non-ASCII Font" : false,
   "Ansi 7 Color" : {
     "Green Component" : 0.73333334922790527,
@@ -626,6 +648,12 @@
       "Text" : "[1;2H",
       "Action" : 10
     },
+    "0xf702-0x300000-0x7b" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x01",
+      "Label" : ""
+    },
     "0xf72b-0x40000" : {
       "Text" : "[1;5F",
       "Action" : 10
@@ -654,9 +682,27 @@
       "Text" : "0x1b",
       "Action" : 11
     },
+    "0x7f-0x100000-0x33" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x15",
+      "Label" : ""
+    },
+    "0xf703-0x300000-0x7c" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x05",
+      "Label" : ""
+    },
     "0xf703-0x220000" : {
       "Text" : "[1;2C",
       "Action" : 10
+    },
+    "0x7f-0x80000-0x33" : {
+      "Version" : 1,
+      "Action" : 11,
+      "Text" : "0x17",
+      "Label" : ""
     },
     "0xf701-0x240000" : {
       "Text" : "[1;5B",
@@ -665,6 +711,12 @@
     "0xf70d-0x20000" : {
       "Text" : "[21;2~",
       "Action" : 10
+    },
+    "0xf702-0x280000-0x7b" : {
+      "Version" : 1,
+      "Action" : 10,
+      "Text" : "b",
+      "Label" : ""
     },
     "0xf702-0x260000" : {
       "Text" : "[1;6D",
@@ -698,9 +750,11 @@
       "Text" : "[1;2D",
       "Action" : 10
     },
-    "0xf703-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x43",
-      "Action" : 11
+    "0xf703-0x280000-0x7c" : {
+      "Version" : 1,
+      "Action" : 10,
+      "Text" : "f",
+      "Label" : ""
     },
     "0xf700-0x240000" : {
       "Text" : "[1;5A",
@@ -729,10 +783,6 @@
     "0xf701-0x260000" : {
       "Text" : "[1;6B",
       "Action" : 10
-    },
-    "0xf702-0x280000" : {
-      "Text" : "0x1b 0x1b 0x5b 0x44",
-      "Action" : 11
     },
     "0xf72b-0x20000" : {
       "Text" : "[1;2F",
@@ -840,7 +890,7 @@
     "Red Component" : 0
   },
   "Blur" : true,
-  "Normal Font" : "SourceCodePro+Powerline+AwesomeRegular 15",
+  "Normal Font" : "SourceCodePro+Powerline+AwesomeRegular 16",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
     "Green Component" : 0.73333334922790527,
@@ -852,10 +902,10 @@
   "Command" : "",
   "Terminal Type" : "xterm-256color",
   "Horizontal Spacing" : 1,
-  "Option Key Sends" : 0,
+  "Option Key Sends" : 2,
   "Minimum Contrast" : 0,
   "HotKey Window Animates" : true,
-  "HotKey Modifier Flags" : 1048576,
+  "HotKey Modifier Flags" : 1179648,
   "Ansi 15 Color" : {
     "Green Component" : 1,
     "Blue Component" : 1,
@@ -875,7 +925,7 @@
   },
   "Screen" : -1,
   "Initial Use Transparency" : true,
-  "HotKey Characters Ignoring Modifiers" : "j",
+  "HotKey Characters Ignoring Modifiers" : "J",
   "Bound Hosts" : [
 
   ],
