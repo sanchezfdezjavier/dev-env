@@ -1,9 +1,10 @@
 #! /bin/bash
 
+
 # Updates apt
 sudo apt update -qq
 
-# Improve git default log command
+# Improves git default log command
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # Sets git config
@@ -31,13 +32,21 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 
+# Installs kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
 # Installs charmcraft
 sudo snap install charmcraft --classic
 
 # Installs juju
 sudo snap install juju --classic
 
-# Generates todos
+# Sets aliases
+echo "alias k=kubectl" >> ~/.bashrc
+echo "alias j=juju" >> ~/.bashrc
+
+# Manual steps
 echo "##############################################"
 echo "Configure aws cli"
 echo "##############################################"
