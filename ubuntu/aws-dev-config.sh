@@ -2,7 +2,7 @@
 
 
 # Updates apt
-sudo apt update -qq
+sudo apt update -qq -y
 
 # Improves git default log command
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -15,7 +15,7 @@ chmod +x git-config.sh
 
 # Installs virtualenv
 sudo apt install python3-virtualenv -y
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 sudo pip3 install virtualenv
 
 # Creates virtualenv
